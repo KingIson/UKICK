@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Setting"
+             x:Class="UKICK.BouncingBoxPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
+    </ContentPage.Padding>
+
+    <ContentView SizeChanged="OnContentViewSizeChanged">
+        <Frame x:Name="frame"                
+               OutlineColor="Accent"               
+               BackgroundColor="White" 
+                Padding="0"               
+               HorizontalOptions="Center"                
+               VerticalOptions="Center">
+            <AbsoluteLayout SizeChanged="OnAbsoluteLayoutSizeChanged">
+                <BoxView x:Name="boxView"                         
+                         Color="Accent"                         
+                         IsVisible="True" />
+            </AbsoluteLayout>
+        </Frame>
+    </ContentView>
+</ContentPage>

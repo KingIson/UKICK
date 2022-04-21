@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:vs="clr-namespace:VolumeSliderPlugin.Shared;assembly=VolumeSliderPlugin"
+             x:Class="UKICK.SettingPage">
+
+    <ContentPage.Content>
+     <StackLayout VerticalOptions="Center">
+        <vs:VolumeSlider x:Name="volumeSlider" Volume="0.5" WidthRequest="150"  />
+        <!--<Slider x:Name="slider" Minimum="0" Maximum="100"/>-->
+        <!--<Label Text="{Binding Source={x:Reference slider},Path=Value, StringFormat='{0:N0}'}" TextColor="Black" />-->
+    </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

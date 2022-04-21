@@ -1,0 +1,7 @@
+D:\(INFT2051)Mobile App Programming\Assignment\UKICK\UKICK\UKICK\obj\Release\netstandard2.0\App.xaml.g.cs
+D:\(INFT2051)Mobile App Programming\Assignment\UKICK\UKICK\UKICK\obj\Release\netstandard2.0\FirstPage.xaml.g.cs
+D:\(INFT2051)Mobile App Programming\Assignment\UKICK\UKICK\UKICK\obj\Release\netstandard2.0\LevelPage.xaml.g.cs
+D:\(INFT2051)Mobile App Programming\Assignment\UKICK\UKICK\UKICK\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+D:\(INFT2051)Mobile App Programming\Assignment\UKICK\UKICK\UKICK\obj\Release\netstandard2.0\UKICK.csproj.CoreCompileInputs.cache
+D:\(INFT2051)Mobile App Programming\Assignment\UKICK\UKICK\UKICK\obj\Release\netstandard2.0\UKICK.AssemblyInfoInputs.cache
+D:\(INFT2051)Mobile App Programming\Assignment\UKICK\UKICK\UKICK\obj\Release\netstandard2.0\UKICK.AssemblyInfo.cs

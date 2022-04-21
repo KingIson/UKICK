@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="UKICK.LevelPage"
+             Title="Levels" >
+
+    <ContentPage.Content>
+        
+
+        <FlexLayout Direction="Column" HeightRequest="100" WidthRequest="100" AlignItems="Center" JustifyContent="SpaceEvenly">
+            <!--<Label Text="Welcome Back" FlexLayout.AlignSelf="Center" TextColor="Red" FontAttributes="Bold" FontSize="Subtitle"/>
+            <Label Text="Ison" FlexLayout.AlignSelf="Center" TextColor="Red" FontAttributes="Bold" FontSize="Subtitle"/>-->
+            <Button Text="Level 1" BackgroundColor="Accent" Clicked="Level1_Page" />
+            <Button Text="Level 2" BackgroundColor="Accent" Clicked="Level2_Page"/>
+            <Button Text="Level 3" BackgroundColor="Accent" x:Name="B3"/>
+            <Button Text="Level 4" BackgroundColor="Accent" Clicked="Level4_Page"/>
+            <Button Text="SettingPage" BackgroundColor="Accent" Clicked="SettingPage"/>
+            
+        </FlexLayout>   
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="UKICK.MapsPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Padding="10">
+                <!--<Label Text="Options:"/>
+                <Label Text="Name"/>
+                <Entry  x:Name="EntryName"/>
+
+                <Label Text="Latitude" Margin="0,24,0,0"/>
+                <Entry Keyboard="Numeric" Text="47.603230"
+                   x:Name="EntryLatitude"/>
+
+                <Label Text="Longitude"/>
+                <Entry Keyboard="Numeric" Text="-122.330276"
+                   x:Name="EntryLongitude"/>
+                <Button Text="Open coordinates" x:Name="Directions"
+                    Clicked="Directions_Clicked"/>-->
+
+                <Image x:Name="NationalStadium"
+                       HeightRequest="300"
+                       WidthRequest="300"
+                       >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="NationalStadium_Tapped"
+                            NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+                    
+                </Image>
+                <Label Text="National Stadium" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+
+                <Image x:Name="SingaporeIndoorStadium"
+                       HeightRequest="300"
+                       WidthRequest="300"
+                       
+                       >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="SingaporeIndoorStadium_Tapped"
+                            NumberOfTapsRequired="1"/>
+                        
+                    </Image.GestureRecognizers>
+                    
+                </Image>
+                <Label Text="Singapore Indoor Stadium" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+            
+                <Image x:Name="JalanBesar"
+                       HeightRequest="300"
+                       WidthRequest="300"
+                       >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="JalanBesar_Tapped"
+                            NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+
+                </Image>
+                <Label Text="JalanBesar Stadium" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+
+                <Image x:Name="SeragoonStadium"
+                       HeightRequest="300"
+                       WidthRequest="300"
+                       >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="SeragoonStadium_Tapped"
+                            NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+
+                </Image>
+                <Label Text="Seragoon Stadium" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+
+                <Image x:Name="ToaPayohStadium"
+                       HeightRequest="300"
+                       WidthRequest="300"
+                       >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="ToaPayohStadium_Tapped"
+                            NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+
+                </Image>
+                <Label Text="ToaPayoh Stadium" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+            
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

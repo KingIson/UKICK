@@ -1,0 +1,100 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\ball_trans3.png" />
+    <None Remove="Images\ClassicBall.png" />
+    <None Remove="Images\green soccer ball.png" />
+    <None Remove="Images\Jalan Besar Stadium.jpg" />
+    <None Remove="Images\NationalStadiumSingapore.jpg" />
+    <None Remove="Images\Orange ball.jpg" />
+    <None Remove="Images\orange soccer ball.png" />
+    <None Remove="Images\purple 1 soccer ball.png" />
+    <None Remove="Images\purple soccer ball.png" />
+    <None Remove="Images\RedClassicBall.png" />
+    <None Remove="Images\Serangoon Stadium.jpg" />
+    <None Remove="Images\Singapore Indoor Stadium.jpg" />
+    <None Remove="Images\SoccerField.jpg" />
+    <None Remove="Images\SoccerField1.jpg" />
+    <None Remove="Images\Toapayoh-stadium.jpg" />
+    <None Remove="Images\ukick_logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\ball_trans3.png" />
+    <EmbeddedResource Include="Images\BrazilianBall.png" />
+    <EmbeddedResource Include="Images\ClassicBall.png" />
+    <EmbeddedResource Include="Images\green soccer ball.png" />
+    <EmbeddedResource Include="Images\Jalan Besar Stadium.jpg" />
+    <EmbeddedResource Include="Images\NationalStadiumSingapore.jpg" />
+    <EmbeddedResource Include="Images\orange soccer ball.png" />
+    <EmbeddedResource Include="Images\purple soccer ball.png" />
+    <EmbeddedResource Include="Images\Serangoon Stadium.jpg" />
+    <EmbeddedResource Include="Images\Singapore Indoor Stadium.jpg" />
+    <EmbeddedResource Include="Images\SoccerField.jpg" />
+    <EmbeddedResource Include="Images\SoccerField1.jpg" />
+    <EmbeddedResource Include="Images\Toapayoh-stadium.jpg" />
+    <EmbeddedResource Include="Images\ukick_logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CocosSharp" Version="1.7.1" />
+    <PackageReference Include="VolumeSliderPlugin" Version="1.0.2" />
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.3.1" />
+    <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\purple 1 soccer ball.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Ball Collection.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="BouncingBoxPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Enter Name.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="FirstPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LevelPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Level_1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Level_2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MapsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SettingPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SplashPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Username.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="WorkingWithImages.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

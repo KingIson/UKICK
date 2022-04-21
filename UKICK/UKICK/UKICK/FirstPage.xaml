@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="UKICK.FirstPage"
+             BackgroundColor="purple">
+
+
+    <ContentPage.Content>
+        <FlexLayout Direction="Column" HeightRequest="500" WidthRequest="500" AlignItems="Center" JustifyContent="SpaceEvenly">
+            <Label x:Name="Name" 
+                   FontAttributes="Bold"
+                   FontSize="Large"/>
+
+            <Label Text="UKICK" FontSize="Large" FontAttributes="Bold" TextColor="Yellow"/>
+            <Image x:Name="UkickLogo" />
+            <Button Text="Play Now" FontAttributes="Bold" FontSize="Subtitle" Clicked="Button_Clicked"/>
+            <Button Text="SettingPage" BackgroundColor="Accent" Clicked="SettingPage"/>
+            <Button Text="Ball Collection" BackgroundColor="Accent" Clicked="BallCollection"/>
+            <Button Text="Stadium" BackgroundColor="Accent" Clicked="Stadium"/>
+            
+        </FlexLayout>
+
+        
+    </ContentPage.Content>
+</ContentPage>
